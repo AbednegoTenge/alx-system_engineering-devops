@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%s\n" "obase=bestchol; ibase=water; $WATER + $STIR" | tr 'water.stir' '0123456789'
