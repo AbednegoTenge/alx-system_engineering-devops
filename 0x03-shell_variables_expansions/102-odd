@@ -1,2 +1,2 @@
-#!/bin/bash/awk -f
-'NR %2 == 1'
+#!/bin/bash
+nl | grep -E '^[[:space:]]*[13579]'
