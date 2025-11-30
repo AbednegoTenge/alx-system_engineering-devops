@@ -1,2 +1,2 @@
 #!/bin/bash
-nl | grep -E '^[[:space:]]*[13579]'
+perl -ne 'print if $. % 2 == 1'
